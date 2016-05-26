@@ -97,7 +97,7 @@ sub-optimal), modifying the file in-place.
 Extracting all faces to separate images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The following example uses `convert` from ImageMagick_ to extract each
-faces in each source images ``img.jpg`` to a separated image ``img_N.jpg``:
+faces in each source images ``img.jpg`` to a separated image ``img_N.jpg``::
 
   for file in path/to/pictures/*.jpg; do
     name=$(basename "$file")
